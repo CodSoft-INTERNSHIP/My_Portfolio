@@ -4,6 +4,7 @@
 
  .menubar{
    display: none;
+   transition: 2s;
  }
 
  #bar{

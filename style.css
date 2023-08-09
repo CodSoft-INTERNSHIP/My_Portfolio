@@ -126,12 +126,14 @@ background-color: crimson;
 
 /* footer section */
 .container3{
-    height: 100px;
+    min-height: 100px;
+    height: auto;
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
     
 }
 
