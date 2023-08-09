@@ -2,8 +2,8 @@
 
  /* Header section  */
 
- .abous-us{
-    display: none;
+ .menubar{
+   display: none;
  }
 
  #bar{
@@ -38,4 +38,30 @@
  .des{
     align-items: start;
  }
+
+ /* Resume section */
+
+ .resume-section{
+   padding: 0px;
+ }
+
+ .biodata{
+   padding-left: 0px;
+   flex-direction: column;
+ }
+
+ /* project-section */
+
+   .project-section{
+      padding: 0px;
+   }
+
+   .data{
+      flex-direction: column;
+   }
+
+   .right-one img{
+      width: 295px;
+      margin-top: 30px;
+   }
 }

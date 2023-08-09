@@ -17,17 +17,20 @@
         <!-- Header section -->
         <header>
             <div class="container">
-                <div class="name">
+                <div class="name" id="name">
                     <h3>VIKASH SWAMI</h3>
                     <p>Web Designer</p>
                 </div>
 
                     <i class="fa-solid fa-bars" id="bar"></i>
+                    <i class="fa-solid fa-xmark" id="bar2"></i>
                 
-                <div class="abous-us">
-                    <p onclick="showintro()">Back</p><span>|</span>
-                    <p onclick="showresume()">Resume</p><span>|</span>
-                    <p onclick="showproject()">Projects</p>
+                <div class="menubar" id="About">
+                    <div class="abous-us" >
+                        <p onclick="showintro()">Back</p><span>|</span>
+                        <p onclick="showresume()">Resume</p><span>|</span>
+                        <p onclick="showproject()">Projects</p>
+                    </div>
                 </div>
             </div>
         </header>
@@ -177,8 +180,24 @@
             document.getElementById('project-id').style.display = "none";
 
     }
+    
+    document.getElementById('bar').onclick = showmenu;
 
+    function showmenu(){
+        document.getElementById('About').style.display = "block";
+        document.getElementById('name').style.display = "none";
+        document.getElementById('bar').style.display = "none";
+        document.getElementById('bar2').style.display = "block";
+    }
 
+    document.getElementById('bar2').onclick = hidemenu;
+
+    function hidemenu(){
+        document.getElementById('About').style.display = "none";
+        document.getElementById('name').style.display = "block";
+        document.getElementById('bar').style.display = "block";
+        document.getElementById('bar2').style.display = "none";
+    }
    
 </script>
 

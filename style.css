@@ -44,6 +44,10 @@ body{
 #bar{
     display: none;
 }
+
+#bar2{
+    display: none;
+}
 .about-me{
     display: flex;
     flex-direction: column;
