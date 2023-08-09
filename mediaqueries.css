@@ -1,0 +1,42 @@
+@media screen and (min-width:0px) and (max-width:479px) {
+
+ /* Header section  */
+
+ .abous-us{
+    display: none;
+ }
+
+ #bar{
+    display: block;
+ }
+
+ .container2{
+    flex-direction: column-reverse;
+    height: 800px;
+ }
+
+ .image img{
+    width: 340px;
+ }
+
+ .description{
+    width: 350px;
+    margin: 0;
+ }
+
+ .about-me{
+    width: 310px;
+    height: 300px;
+ }
+
+ .container3{
+    height: 220px;
+    flex-direction: column;
+    height: 300px;
+    align-items: flex-start;
+ }
+
+ .des{
+    align-items: start;
+ }
+}
