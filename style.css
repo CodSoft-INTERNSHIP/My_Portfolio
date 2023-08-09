@@ -206,9 +206,12 @@ h1{
     
 }
 .right-one img{
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
+.left-one{
+    width: 300px;
+}
 
 
